@@ -20,10 +20,10 @@ nav{
   font-weight: 600px;
   font-size: 30px;
   text-align: center;
-  word-spacing: 100px;
+  word-spacing: 99px;
   color:blue;
   background-color: black;
-  padding:20px;
+  padding:50px;
 }
 nav strong{
   color: white;

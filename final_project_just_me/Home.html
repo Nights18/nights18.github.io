@@ -5,6 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Simply M.E.</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="apple-icon-57x57.png">
   <link rel="shortcut icon" href="favicon-96x96.png" type="image/x-icon" />
 
@@ -12,8 +13,11 @@
   <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
+  <div class="container">
   <header>
-    <nav>
+    <div class="nav-wrapper">
+      <button id="openDropdown" class="hamburger" ><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <nav id="dropdownMenu">
         <a href="home.html"><strong>Home</strong></a>
         <a href="blog.html">Blogs</a>
         <a href="Fitness.html">Fitness</a>
@@ -21,17 +25,97 @@
         <a href="Style.html">Style</a>
         <a href="Travel.html">Travel</a>
     </nav>
-    <h1>Hi! Sheed's Here!!!</h1>
+  </button>
+    </div>
+    <!--<section class="dropdowns">
+      <ul id="dropdownMenu">
+			<li>Home</li>
+			<li>About</li>
+			<li>Contact</li>
+			<li>Blog</li>
+		</ul>
+	</section>-->
   </header>
+  <main>
+  <div class="sec_container">
+  <div class="slider" id="main-slider">
+      <div class="slide">
+        <img src="img/Home/IMG_20180217_180035.jpg"></div>
+      <div class="slide" >
+        <img src="img/Home/IMG_20180304_180025.jpg"></div>
 
-  <!-- Add your site content here. Keep it pretty and use indentation :) -->
+      <div class="slide" >
+        <img src="img/Home/IMG_20171109_044645.jpg"></div>
+
+      <div class="slide">
+        <img src="img/Home/IMG_20170929_192613.jpg"></div>
+
+      <div class="slide">
+        <img src="img/Home/IMG_20170416_210249.jpg"></div>
+
+        <div class="slide">
+          <img src="img/Home/IMG_20180218_145051.jpg" rotate="90"></div>
+  </div>
+  <div class="intro_container">
+    <h1>Yep, this is it!!!!</h1>
+    <p>Welcome to one of the most random pages that every created by me... Well, I guess I should say welcome to the only page to date created by me... Anyway, I hope you enjoy the content of this site and feel free to follow me using the tag below on Facebook, Twitter, and/or Instagram.</p>
+    <aside class="sub_pages">
+      <img src="img/blogs/20150710_160638.jpg" alt="">
+        <div>
+          <h2> Blogs:</h2>
+          <p>Summary of blogs</p>
+        </div>
+    <!--</aside>-->
+    <!--<aside>-->
+      <img src="img/blogs/20150710_160638.jpg" alt="">
+        <div>
+          <h2>Fitness:</h2>
+          <p>Summary of fitness</p>
+        </div>
+  <!--  </aside>-->
+    <!--<aside>-->
+      <img src="img/blogs/20150710_160638.jpg" alt="">
+        <div>
+          <h2>Entertainment:</h2>
+          <p>Summary of entertainment</p>
+        </div>
+    <!-- <aside>-->
+      <img src="img/blogs/20150710_160638.jpg" alt="">
+        <div>
+          <h2>Style:</h2>
+          <p>Summary of style</p>
+        </div>
+    <!--</aside>-->
+   <!--<aside>-->
+    <img src="img/blogs/20150710_160638.jpg" alt="">
+      <div>
+        <h2>Travel:</h2>
+        <p>Summary of travel</p>
+      </div>
+  <!--  </aside>-->
+  </div>
+</div>
+</main>
+
+ <footer>
+		<ul>
+			<a href="https://www.facebook.com/marsheed.edmonds" target="_blank" class="fa fa-facebook-square"></a>
+			<a href="https://twitter.com/Speedy_nights" target="_blank" class="fa fa-twitter-square"></a>
+			<a href="https://www.instagram.com/nights18/" target="_blank" class="fa fa-instagram"></a>
+ 		</ul>
+  </footer>
+</div>
+
+
+ <!-- Add your site content here. Keep it pretty and use indentation :) -->
 
   <!-- HINT: Need to link to another page? Create a file with an html extension in your main project folder. -->
   <!-- Then link to it using an anchor. for example: <a href="blog.html">Blog</a> -->
 
 
-
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="js/jquery-1.12.0.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
 </body>
 </html>

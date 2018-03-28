@@ -1,12 +1,4 @@
 // Make it rain!
-
-$('#openDropdown').on('click', function(){
-  $('#dropdownMenu').slideToggle();
-})
-
-
-
-
 var imageNumber = 0;
 
 $('#next').on('click', function(){
@@ -22,7 +14,7 @@ $('#next').on('click', function(){
 })
 
 $('#previous').on('click', function(){
-  if (imageNumber > 0){
+  if (imageNumber < 4){
     imageNumber -=1;
   } else {
     imageNumber = 4;
